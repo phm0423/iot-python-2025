@@ -119,6 +119,8 @@ print(full_name.upper())
 print(full_name.lower())
 
 ## T로 자를때
+# '' , ""== Empty(비어있다)
+# ' '. " " == Space(공백존재)
 origin = 'TESTSTRING'
 print(origin.split('T'))
 
