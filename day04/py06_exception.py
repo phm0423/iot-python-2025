@@ -1,4 +1,4 @@
-# py06_exception.pyp
+# py06_exception.py
 
 # 예외처리
 ## 오류, Error, Fault, 
