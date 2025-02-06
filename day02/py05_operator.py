@@ -19,7 +19,7 @@ print(a % b)    # 나머지, int
 print(2 ** 7)
 
 # 연산자 우선순위
-## 계산식이 복잡해서 연산자 우선순위를 잘 모르겠으면 ()사용용
+## 계산식이 복잡해서 연산자 우선순위를 잘 모르겠으면 ()사용
 print((3 + 4) * 7)
 print(3 + (4 * 7))
 
@@ -40,7 +40,7 @@ listSample[4] = 11
 print(listSample[len(listSample) - 1])
 # print(listSample[5])
 
-## 문자열 연산 : +, * 만 존재재
+## 문자열 연산 : +, * 만 존재
 greeting = 'Hello'
 target = 'World'
 print(greeting, target) # 문자열 연산 X 
