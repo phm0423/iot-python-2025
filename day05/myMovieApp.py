@@ -24,16 +24,22 @@ def run():
         sel_menu = set_menu()
         if sel_menu == 1:
             # print('영화 입력')
-            movie = set_movie()
-            lst_movie.append(movie)
+            try:
+                movie = set_movie()
+                lst_movie.append(movie)
+                print('영화입력 성공')
+            except Exception as e:
+                print(f'영화 입력 실패!! {e}')
             
         elif sel_menu == 2:
             print('영화 출력')
+            print('----------')
             get_movie(lst_movie)
             
         elif sel_menu == 3:
             print('영화 검색')
             title = input('검색할 영화명 입력 > ')
+            print('----------')
             search_movie(lst_movie, title)
 
         elif sel_menu == 4:
@@ -49,13 +55,19 @@ def run():
         else:
             pass    # 아무것도 하지 않음
 
-        input() #입력 대기: 엔터치면 넘어감
-        clearScreen()   # 메뉴 기능이 완료되면 화면 클리어어
+        input('초기 메뉴로 돌아가려면 아무키나 누르세요.') #입력 대기: 엔터치면 넘어감
+        clearScreen()   # 메뉴 기능이 완료되면 화면 클리어
+
 # 영화검색 함수
 def search_movie(items: list, title: str):
-    for item in items:  # item이 Movie 클래스인지 알 수 없음음
+    count = 0
+    for item in items:  # item이 Movie 클래스인지 알 수 없음
         if item.isNameContain(title):   # 오타발생 위험!
+            count += 1  # 검색된 결과가 있음
             print(item)
+            print('----------')
+
+    print(f'검색된 결과수 : {count} 개')
 
 def del_movie(items: list, title: str):
     for i, item, in enumerate(items):
@@ -103,6 +115,9 @@ def set_movie():
 def get_movie(items: list):
     for item in items:
         print(item)     # Movie 객체
+        print(('----------'))   # 각 영화 아이템별 구분자
+
+    print(f'총 데이터수 : {len(items)} 개')
 
 def set_menu():
     str_menu = (f'내영화 앱 v{VERSION}\n'
