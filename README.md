@@ -141,6 +141,12 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
             - 화면편집 : 검색이나 출력시 데이터 수 표시
 
             
+
+https://github.com/user-attachments/assets/eadb0f6c-415a-462a-b73b-53d312215ec7
+
+
+
+
         - 챗GPT 윈도우앱(tkinter) 만들기
 
     - 주피터 노트북 학습
