@@ -140,8 +140,9 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
             - 예외처리 : 입력시 바로엔터, 입력시 4개의 아이템을 입력하지 않으면 
             - 화면편집 : 검색이나 출력시 데이터 수 표시
 
-    https://github.com/user-attachments/assets/eadb0f6c-415a-462a-b73b-53d312215ec7
+ https://github.com/user-attachments/assets/eadb0f6c-415a-462a-b73b-53d312215ec7
 
+- 파이썬 응용
     -  주피터 노트북 기본사용법
         - 파이썬으로 사용, 연구를 목적으로 하는 리포트 작성에 특화된 기술
         - 주피터 프로젝트에서 나온 결과물
@@ -194,10 +195,10 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
     - 토이프로젝트
         - ChatGPT 유사앱 - 구글 제미나이 API
     - 실습
-        - 제미나이 챗앱 -> 클래스 형태로 변경
+        - 제미나이 챗앱 -> **클래스형태**로 변경
 
     - 실행파일 만들기
-        - pyinstaller 모듈 설치
+        - `pyinstaller` 모듈 설치
         - > pip install pyinstaller
         - > pyinstaller --onefile 파이썬파일명
         - 같이 실행되는 터미널을 제거하려면
