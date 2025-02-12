@@ -186,7 +186,7 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
         root.mainloop()
         ```
 <!-- 주석 -->
-<!-- html에서 사요하는<img> 태그로 캡처한 이미지를 추가 -->
+<!-- html에서 사용하는<img> 태그로 캡처한 이미지를 추가 -->
 <!-- ![py001](./img/py001.png) -->
 <img src="./img/py001.png" width="400">
 
@@ -212,3 +212,12 @@ https://github.com/user-attachments/assets/72c8d412-0c5b-4373-af53-0ac2177b0359
             - 같이 실행되는 터미널을 제거하려면
             - pyinstaller --onefile --noconsole 파이썬파일명
             - 아이콘등의 리소스를 dist 폴더에 복사필요
+
+
+## 8일차
+- 파이썬 응용
+    - GUI 중 PyGame
+        - 기본 윈도우 학습
+        -  이벤트 처리
+        - 간단한 게임 
+        -  이미지, 사운드 등 리소스 활용 게임
