@@ -230,5 +230,11 @@ https://github.com/user-attachments/assets/72c8d412-0c5b-4373-af53-0ac2177b0359
           
 <!--$$y = r \cdot\sin\theta$$-->
 
+<<<<<<< Updated upstream
 
 <img src="./img/py004.gif" width="700" height="450">
+=======
+        $$ \frac{x}{y} $$
+
+<img src="./img/py004.gif" width="700" height="450">
+>>>>>>> Stashed changes
