@@ -71,7 +71,7 @@ print(listSample[-7])
 print(current[-7])
 
 # 슬라이싱, 리스트를 자르기
-## [start:end] : end -1 까지만 추출출
+## [start:end] : end -1 까지만 추출
 print(listSample[0:3 + 1])
 print(current[0:3 + 1])
 
